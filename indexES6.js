@@ -10,7 +10,7 @@ class Book{
     add(book){
         console.log("ADDING BOOK");
        let tableBody = document.getElementById("tableBody");
-    //    localStorage.setItem
+    //    localStorage.setItem as
         let uiString = `
           <tr>
                   <td>${book.name}</td>
